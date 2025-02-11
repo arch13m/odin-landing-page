@@ -1,5 +1,7 @@
 * {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 nav {
     padding: 12px;
@@ -23,7 +25,11 @@ li.logo {
 body {
     padding: 0;
 }
-
+.info-header {
+    size: 36px;
+    color: #1F2937;
+    font-weight: 900;    
+}
 .container {
     height: 140px;
     padding: 16px;
@@ -37,9 +43,13 @@ body {
 .item {
     width: 60px;
     height: 60px;
-    border: 2px solid rgb(26, 66, 245);
+    border: 2px solid #3882F6;
     border-radius: 10px;
     background: white;
+}
+.caption {
+    background: white;
+    border: 0px;
 }
 .body-heading {
     font-size: 25px;
