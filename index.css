@@ -7,6 +7,7 @@ nav {
     padding: 12px;
     border-bottom: 1px dotted
       hsl(0deg 0% 0% / 0.2);
+    background-color: #1F2937;
 }
 ul {
     display: flex;
@@ -16,9 +17,16 @@ ul {
     padding: 0px;
     margin: 0;
 }
-
-li.logo {
+.secondary-text {
+    margin-right: 0;
+    size: 18px;
+    color: #E5E7EB;
+}
+.logo {
     margin-right: auto;
+    color: #F9FAF8;
+    size: 24px;
+    text-decoration: none;
 }
 
 
@@ -26,9 +34,10 @@ body {
     padding: 0;
 }
 .info-header {
-    size: 36px;
+    font-size: 36px;
     color: #1F2937;
-    font-weight: 900;    
+    font-weight: 900;
+    justify-self: center;    
 }
 .container {
     height: 140px;
@@ -55,6 +64,45 @@ body {
     font-size: 25px;
     color: black;
 }
-h1 {
+.section-1 {
+    display: flex;
+    background-color: #1f2937;
+}
+.section-1-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    justify-self: left;
+}
+.image-placeholder {
+    background-color: grey;
+    align-self: center;
     justify-self: center;
+    color: #E5E7EB;
+}
+
+.button {
+    background: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+}
+.section-3 {
+    background-color: #E5E7EB;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+}
+.quote-author {
+    justify-self: right;
+    color: #1f2937;
+    font-weight: 900;
+}
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
